@@ -4,4 +4,5 @@ const tables = function (number) {
   }
 };
 
+console.log("amit");
 tables(15);
