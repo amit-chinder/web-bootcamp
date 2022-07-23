@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms demo</title>
+  </head>
+  <body>
+    <h1>forms demo</h1>
+   <!-- file:///E:/tacos?username=Amit+L+&password=12345&color=%23ffffff&num=3 -->
+    <button>OUTSIDE FORM!!</button>
+    <form action="/tacos">
+      <p>
+        <label for="username">enter a user name:</label>
+        <input
+          id="username"
+          type="text"
+          placeholder="username"
+          name="username"
+          name="username"
+        />
+      </p>
+      <p>
+        <label for="password">enter a password:</label>
+        <input
+          type="password"
+          placeholder="password"
+          id="password"
+          name="password"
+        />
+      </p>
+      <p>
+        <label for="color">enter a color: </label>
+        <input type="color" id="color" name="color" />
+      </p>
+      <p>
+        <label for="number">enter A number</label>
+
+        <input
+          type="number"
+          placeholder="enter a number"
+          id="number"
+          name="num"
+          min="1" max="1000"
+        />
+      </p>
+      <!--this button doesnt submit the form b/c of the "type attributes"-->
+      <button type="button">regular button (wont submit)</button>
+      <button>submit!!!</button>
+      <!--button type="button">PLEASE DO NOT SUBMIT THE FORM</button-->
+      <input type="submit" value="clickme!" />
+    </form>
+    <hr />
+    <!--outside of a form,no default behavior-->
+    <button>not inside form</button>
+    <h2>hijacking searchs</h2>
+    <h3>search reddit</h3>
+    <form action="http://www.reddit.com/search">
+      <input type="text" name="q" />
+      <button>search reddit</button>
+    </form>
+    <h3>search google</h3>
+    <form action="http://www.google.com/search">
+      <input type="text" name="q" />
+      <button>search google</button>
+    </form>
+    <h3>search youtube</h3>
+    <form action="http://www.youtube.com/search">
+      <input type="text" name="q" />
+      <button>search youtube</button>
+    </form>
+    <h2>more inputes!</h2>
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree"/>
+      <lable for="agree">i agree to evrything</form>
+        <p>
+            <label for="male">male</lable>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">female</lable>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="other">other</label></lable>
+            <input type="radio" name="gender" id="other" value="other">
+           <!--file:///E:/birds?agree_tos=on&gender=male-->
+           
+        </p>
+        <p>
+            <lable for="meal">pleace select entree</lable>
+            <select name="meal" id="">meal
+            <option value="fish">fish</option>
+            <option value="veg">veg</option>
+            <option value="steak">steak</option>
+        </select>
+        </p>
+        <p>
+            <label for="cheese">amount of cheese</label>
+            <input type="range" id="cheese" step="7" min="1" max="100" name="cheese">
+        </p>
+        <p>
+            <label for="request">any special request?</label>
+            <br>
+            <textarea name="request" id="request" cols="30" rows="10" placeholder="type something here"></textarea>
+        </p>
+        <button>submit</button>
+    </form>
+   <h2>validation demo</h2>
+   <form action="/dummy">
+    <label for="first">enetr the first name</label>
+    <input type="text" name="first" id="first" required>
+    <p>
+        <label for="username">username</label>
+        <input type="text" id="username" name="username" minlenght="5" maxlength="20" required>
+    </p>
+    <p>
+        <input type="email" required>
+        <input type="url" required>
+    </p>
+    <button>submit</button>
+   </form>
+  </body>
+</html>

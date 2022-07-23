@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration <form action=""></form></title>
+  </head>
+  <body>
+    <h1>race registration!!</h1>
+    <form action="">
+      <div>
+        <label for="first">first name</label>
+        <input type="text" name="firstname" id="first" required/>
+        <label for="last">last name</label>
+        <input type="text" name="lastname" id="last" required/>
+      </div>
+      <p>select the race</p>
+      <div>
+        <input type="radio" name="race" id="funrun" value="funrun" />
+        <label for="funrun">fun run 5k</label>
+      </div>
+      <div>
+        <input type="radio" name="race" id="halff" value="half" />
+        <label for="half">half marathon</label>
+    </div>
+        <input type="radio" name="race" id="full" value="full" />
+        <label for="full">full marathon</label>
+      </div>
+      <div>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" required>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" required>
+      </div>
+<div>
+    <label for="devision">select age group</label>
+    <select name="devision" id="devision">
+        <option value="kids">under18</option>
+        <option value="adults">18-40</option>
+        <option value="seniors">40-60</option>
+        <option value="aged">60above</option>
+    </select>
+</div>
+<button>REGISTER</button>
+    </form>
+  </body>
+</html>
+<!--file:///E:/web-bootcamp/raceregistration.html?firstname=a&lastname=x&race=half&email=a%40mail.com&password=12345&devision=adults-->
