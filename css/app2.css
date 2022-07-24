@@ -1,0 +1,26 @@
+/* {
+  color: pink;
+}*/
+body {
+  background-color: darkgrey;
+}
+button {
+  font-size: 30px;
+  background-color: darkkhaki;
+}
+h1,
+h2 {
+  color: red;
+}
+
+#signup {
+  background-color: brown;
+}
+span {
+  color: aquamarine;
+}
+
+.tag {
+  background-color: red;
+  color: aliceblue;
+}
