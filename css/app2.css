@@ -23,4 +23,74 @@ span {
 .tag {
   background-color: red;
   color: aliceblue;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.post a {
+  color: blue;
+}
+
+footer a {
+  color: brown;
+}
+
+/*input + button {
+  background-color: pink;
+}*/
+h2 + button {
+  font-size: 20px;
+  background-color: magenta;
+}
+
+footer > a {
+  color: black;
+}
+input[type="password"] {
+  color: greenyellow;
+}
+/*section.post {
+  background-color: darkolivegreen;
+}*/
+a[href*="google"] {
+  color: magenta;
+}
+.post button:hover {
+  background-color: mediumvioletred;
+  color: antiquewhite;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.post button:active {
+  background-color: aqua;
+}
+.post:nth-of-type(3) {
+  background-color: navajowhite;
+}
+h2::first-letter {
+  font-size: 50px;
+}
+p::first-line {
+  color: purple;
+}
+
+p::selection {
+  background-color: yellow;
+}
+
+h1,
+h2 {
+  color: darkorange;
+}
+
+.post button:hover {
+  background-color: mediumvioletred;
+  color: antiquewhite;
+}
+
+button:hover {
+  background-color: olive;
+  font-size: 10px;
 }
