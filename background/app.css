@@ -1,0 +1,14 @@
+section {
+  width: 80%;
+  height: 800px;
+  /* background-image: url(a.jpg);
+  background-size: cover;
+  background-position: bottom;*/
+  margin: 0 auto;
+  background: center/cover url(a.jpg), blue;
+}
+
+h1 {
+  font-size: 100px;
+  color: antiquewhite;
+}

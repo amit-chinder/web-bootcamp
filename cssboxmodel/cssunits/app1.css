@@ -1,0 +1,60 @@
+html {
+  font-size: 10px;
+}
+
+section {
+  background-color: darkgoldenrod;
+  width: 800px;
+  height: 800px;
+}
+
+div {
+  background-color: yellow;
+  width: 50%;
+  height: 50%;
+}
+
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200px;
+}
+h2 {
+  font-size: 2em;
+  margin-left: 1em;
+}
+h3 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 10px;
+}
+
+article {
+  font-size: 30px;
+}
+
+button {
+  font-size: 1em;
+  padding: 0 1em;
+  border-radius: 0.5em;
+  background-color: coral;
+  color: white;
+}
+
+ul {
+  font-size: 1.5em;
+}
+
+#rems h2 {
+  font-size: 3rem;
+}
+#rems h3 {
+  font-size: 2rem;
+}
+#rems ul {
+  font-size: 1.5rem;
+}
+#rems button {
+  font-size: 1.5rem;
+}
